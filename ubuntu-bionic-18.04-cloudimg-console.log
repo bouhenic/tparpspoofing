@@ -679,7 +679,8 @@ Generating public/private dsa key pair.
 [[0;32m  OK  [0m] Started Time & Date Service.
 [[0;32m  OK  [0m] Started Wait until snapd is fully seeded.
          Starting Apply the settings specified in cloud-config...
-
+
+
 Ubuntu 18.04.6 LTS ubuntu-bionic ttyS0
 
 ubuntu-bionic login: [   24.303562] cloud-init[1333]: Cloud-init v. 23.1.2-0ubuntu0~18.04.1 running 'modules:config' at Sat, 12 Oct 2024 12:55:36 +0000. Up 23.47 seconds.
@@ -699,4 +700,5 @@ ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQC88ZBrbfFXmEanBc9AtvemPjow7ZJDIUsi+axLxJ/z
 -----END SSH HOST KEY KEYS-----
 [   26.076082] cloud-init[1529]: Cloud-init v. 23.1.2-0ubuntu0~18.04.1 running 'modules:final' at Sat, 12 Oct 2024 12:55:38 +0000. Up 25.61 seconds.
 [   26.087387] cloud-init[1529]: Cloud-init v. 23.1.2-0ubuntu0~18.04.1 finished at Sat, 12 Oct 2024 12:55:39 +0000. Datasource DataSourceNoCloud [seed=/dev/sdb][dsmode=net].  Up 26.06 seconds
-
+
+
