@@ -66,7 +66,7 @@ Vagrant.configure("2") do |config|
       # Installer Firefox et X11 utils
       sudo apt-get install -y firefox-esr xauth x11-apps
       # Ajouter la variable DISPLAY dans le fichier .bashrc pour qu'elle soit disponible à chaque session
-      echo "export DISPLAY=192.168.56.1:0" >> /home/vagrant/.bashrc
+      echo "export DISPLAY=localhost:10.0" >> /home/vagrant/.bashrc
     SHELL
   end
 
@@ -95,7 +95,7 @@ Vagrant.configure("2") do |config|
       sudo apt-get install -y wireshark firefox-esr ettercap-graphical xauth x11-apps
 
       # Ajouter la variable DISPLAY dans le fichier .bashrc pour qu'elle soit disponible à chaque session
-      echo "export DISPLAY=192.168.56.1:0" >> /home/vagrant/.bashrc
+      echo "export DISPLAY=localhost:10.0" >> /home/vagrant/.bashrc
 
       # Créer le groupe 'wireshark' si non existant
       sudo groupadd wireshark || true
