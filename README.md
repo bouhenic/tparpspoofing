@@ -4,7 +4,7 @@ Ce dépôt contient un fichier Vagrantfile permettant la création d'un réseau 
 1. Cloner le répertoire :
 ```bash
 git clone https://github.com/bouhenic/tparpspoofing
-cd tpssh
+cd tpsarpspoofing
 ```
 2. Créer et lancer les VM :
 ```bash
